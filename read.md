@@ -1,3 +1,5 @@
+https://github.com/slatoric/php-autoload.git
+
 shows how to use namespaces with ini setting("include_path");
 every file that tries to load all library must have one line: require_once($_SERVER["DOCUMENT_ROOT"]."/ald.php");
 be careful because of use $_SERVER["DOCUMENT_ROOT"] variable;
