@@ -17,5 +17,6 @@ SomeCls1::boo();
 cls\SomeCls4SomeIfc::foo();
 cls\SomeCls4SomeIfc::boo();
 cls\SomeCls4SomeIfc::koo();
+\SomeGlobalCls::foo();//not recommended due to class def files in root
 
 require_once $_SERVER["DOCUMENT_ROOT"].'/fst_rtr.php';//integration with nikic/fast-route (optional)
