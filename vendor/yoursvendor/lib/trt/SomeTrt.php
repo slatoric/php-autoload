@@ -1,5 +1,5 @@
 <?php
-namespace vendor\yoursvendor\lib\trt;
+namespace lib\trt;
 trait SomeTrt
 {
     public static function boo()

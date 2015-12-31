@@ -1,5 +1,5 @@
 <?php
-namespace vendor\yoursvendor\lib\ifc;
+namespace lib\ifc;
 interface SomeIfc
 {
     public static function foo();

@@ -1,7 +1,8 @@
 <?php
-namespace vendor\yoursvendor\lib;//namespace from root directory of site
+//this index.php is in root directory
+namespace lib;//namespace for all library
 
-require_once($_SERVER["DOCUMENT_ROOT"]."/ald.php");//adds root directory to include_path and registers standart autoloader
+require_once("ald.php");//adds vendor directory to include_path and registers standart autoloader
 
 cls\SomeCls::foo();
 class SomeCls1 implements ifc\SomeIfc
@@ -17,6 +18,6 @@ SomeCls1::boo();
 cls\SomeCls4SomeIfc::foo();
 cls\SomeCls4SomeIfc::boo();
 cls\SomeCls4SomeIfc::koo();
-\SomeGlobalCls::foo();//not recommended due to class def files in root
+\SomeGlobalCls::foo();//not recommended due to different definition files in root
 
-require_once $_SERVER["DOCUMENT_ROOT"].'/fst_rtr.php';//integration with nikic/fast-route (optional)
+require_once 'fst_rtr.php';//integration with nikic/fast-route (optional)

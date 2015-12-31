@@ -13,7 +13,7 @@ $dispatcher = \FastRoute\simpleDispatcher(function(\FastRoute\RouteCollector $r)
     $r->addRoute('GET', '/tst', 'lib\hello');
     $r->addRoute('GET', '/vendor/yoursvendor/lib/tst', 'lib\hello');
     $r->addRoute('GET', '/vendor/yoursvendor/lib/user/{id:\d+}', 'lib\get_user_handler');
-    $r->addRoute('GET', '/vendor/othervendor/tst', 'lib\hello');
+    $r->addRoute('GET', '/vendor/yoursvendor/lib/users', 'lib\get_all_users_handler');
 });
 // Fetch method and URI from somewhere
 $httpMethod = $_SERVER['REQUEST_METHOD'];

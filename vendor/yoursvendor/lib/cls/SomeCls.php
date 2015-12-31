@@ -1,5 +1,5 @@
 <?php
-namespace vendor\yoursvendor\lib\cls;
+namespace lib\cls;
 class SomeCls
 {
     public static function foo()
