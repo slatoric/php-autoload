@@ -11,7 +11,7 @@ be careful because of use $_SERVER["DOCUMENT_ROOT"] variable; however in most ca
 
 this allows to include all classes, interfaces and traits from any directory of site
 
-all namespaces starts from vendor dir
+all namespaces starts from vendor directory
 
 
 some integration example with FastRoute (better use Composer for auto updates):
