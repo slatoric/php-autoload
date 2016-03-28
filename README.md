@@ -1,5 +1,5 @@
 # php-autoload
-php autoloading with standart autoloader
+php autoloading with standard autoloader
 
 https://github.com/slatoric/php-autoload.git
 
